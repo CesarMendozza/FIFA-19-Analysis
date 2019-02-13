@@ -4,17 +4,16 @@ This dataset will be familiar for those that love Soccer/Futbol and grew up play
 
 ### Content
 
-Every player featured in FiFA 19
-Over 90 attributes
+Every player featured in FiFA ’18
+Over 0 attributes
 Player Data
-Attributes based on actual data from EA’s FIFA ’19
+Attributes based on actual data from EA’s FIFA ’18
 I have engineered some attributes. 
 Player personal data like age, nationality, club, wage etc… 
 
 
 ### Upcoming updates
 Add the element of ‘Star Power’ into model
-Chloropleth to show all nation represented in the dataset
 
 
 ### Data Source
@@ -29,9 +28,8 @@ Find the youngest players with the most potential
 Analyze which national team or club has the best rated players
 Find correlation between age and overall rating
 Find correlation between age and composure
-Find teams with the most 'homegrown' players
 
-This analysis could be used for recruiting, fantasy teams, or managerial purposes. 
+This analysis could be used for recruiting or for you Fantasy Premier League. 
 
 ### Acknowledgements
 
@@ -69,7 +67,7 @@ Content:
 
 
 
-![Alt Text](Data%20Viz/Dybala.png)
+![Alt Text](Data_Viz/Dybala.png)
 
 
 
@@ -97,7 +95,7 @@ I wanted to know how many players come from each of the 162 nations represented 
 
 
 
-![Alt Text](Data%20Viz/cum_sum_nationality.png) 
+![Alt Text](Data_Viz/cum_sum_nationality.png) 
 
 
 After finding out the number of footballers by nation I wondered which nation had the highest aggregate overall. I took each players overall and added them all up to get that nations power index, I cant think of another name. I was surprised to see China PR, Japan, and Republic of Ireland in the top 20. I can think of three African nations that have better teams than these three, right off the top of my head. 
@@ -107,7 +105,7 @@ After finding out the number of footballers by nation I wondered which nation ha
 
 
 
-![Alt Text](Data%20Viz/nations%20power.png) 
+![Alt Text](Data_Viz/nations%20power.png) 
 
 
 
@@ -116,7 +114,7 @@ And it was only natural for me to wonder the distribution of players by continen
 
 
 
-![Alt Text](Data%20Viz/players_continent.png)
+![Alt Text](Data_Viz/players_continent.png)
 
 
 
@@ -124,7 +122,7 @@ And it was only natural for me to wonder the distribution of players by continen
 From there I wanted to see the homologous of a team. The way I think of this is how many native players does a club own i.e if ‘X’ player was born in L.A and plays for Atlanta United. This was pure curiosity. I didn’t use this for my model, but it does help me understand other factors to include when I work toward improving my model. I did find that three of the most heterogenous teams were Italian: Genoa, Udinese, Napoli. I have the graphs uploaded into the project if you are interested.  This part will be used for the next update of this project.
 
 
-![Alt Text](Data%20Viz/Atl_Utd.png)
+![Alt Text](Data_Viz/Atl_Utd.png)
 
 
 ### Top positions from each country
@@ -133,13 +131,7 @@ From there I wanted to see the homologous of a team. The way I think of this is 
 
 
 
-![Alt Text](Data%20Viz/Bottom%20Footballers%20Value%20Distribution.png)
-
-
-
-
-
-
+![Alt Text](Data_Viz/Bottom%20Footballers%20Value%20Distribution.png)
 
 
 
@@ -155,7 +147,7 @@ When we think of counties like Argentina, Brazil, and France, having the knowled
 
 ### Player rating with age
 
-![Alt Text](Data%20Viz/Potential%20Meets%20Overall%20Rating.png)
+![Alt Text](Data_Viz/Potential%20Meets%20Overall%20Rating.png)
 
 
 FIFA 19 has rated all 42,000 professional footballers giving them an overall attribute and a potential attribute.  To find where potential meets overall, the data was grouped by age , the mean overall, and the mean potential. The chart above shows us four lines:
@@ -172,10 +164,10 @@ This graph visualizes the mean player value grouped by age, for all footballers,
 
 
 
-![Alt Text](Data%20Viz/MeanVal%20by%20Age.png)
+![Alt Text](Data_Viz/MeanVal%20by%20Age.png)
 
 
-This graph is useful in visualizing the trends of valuation by age. The youngest players in our age group start at 16 all the way to 41. We see valuation climb from 16 to about 26-27, which are the ages where we can consider a player full developed(see graph #). Looking past age 27 we see valuation stat to decline for most players. Another interesting fact is that from age 20 to 21 the mean value increases by ~ €500K.  Inverse of that, the sharpest decline is seen at age ~ €800K.  I would also like to acknowledge age groups 27 and and 31. These groups disrupt the the graph because of players with high valuation like Messi and Neymar  Jr.
+This graph is useful in visualizing the trends of valuation by age. The youngest players in our age group start at 16 all the way to 41. We see valuation climb from 16 to about 26-27, which are the ages where we can consider a player full developed(see graph #). Looking past age 27 we see valuation stat to decline for most players. Another interesting fact is that from age 20 to 21 the mean value increases the by ~ €500K.  Inverse of that, the sharpest decline is seen at age ~ €800K.  I would also like to acknowledge age groups 27 and and 31. These groups disrupt the the graph because of players with high valuation like Messi and Neymar  Jr.
 
 
 We can also analyze and display data of weekly wages in each age group. Using the same technique when I was looking into the valuation v. age (see above).
@@ -184,7 +176,7 @@ We can also analyze and display data of weekly wages in each age group. Using th
 
 
 
-![Alt Text](Data%20Viz/MeanWage%20by%20Age.png)
+![Alt Text](Data_Viz/MeanWage%20by%20Age.png)
 
 
 
@@ -196,7 +188,7 @@ The focus here is the weekly wages for each age group. At 16 you start with a �
 
 
 
-![Alt Text](Data%20Viz/Value%20by%20Position.png)
+![Alt Text](Data_Viz/Value%20by%20Position.png)
 
 
 Here we show valuation by position. We associated each player to their position versus the valuation for each player. The box plots are good to show the quartiles of the dataset while the whiskers extend to show the rest of the distribution, except for points that are determined to be “outliers” . These outliers are your superstars of the game like Eden Hazard, Phillip Coutinho, and Paulo Dybala. This graph helps both players and clubs understand valuation trends for each position. 
@@ -206,7 +198,7 @@ Here we show valuation by position. We associated each player to their position 
 
 
 
-![Alt Text](Data%20Viz/count%20of%20players%20by%20position.png)
+![Alt Text](Data_Viz/count%20of%20players%20by%20position.png)
 
 
 
@@ -218,27 +210,26 @@ The righty v goofy argument exist in all sports from baseball to rugby. Soccer i
 
 
 
-![Alt Text](Data%20Viz/Top%20100%20Players%20Preferred%20Foot.png)
+![Alt Text](Data_Viz/Top%20100%20Players%20Preferred%20Foot.png)
 
-Violin plots are and effective and attractive way to show multiple distributions of data at once. The plot shows the preferred foot of each player grouped by age. Its starting to see that most of the 24 year olds, rated in the top 100 by value, heavily favor the goofy style. Inversely, the 33 year old group are righties, which include players like Cristiano Ronaldo and Thiago Silva.
+Violin plots are and effective and attractive way to show multiple distributions of data at once. The plot shows the preferred foot of each player grouped by age. Its starting to see that most of the 24 year olds, rated in the top 100 by value, heavily favor the goofy style. Inversely, the 33 year old group are righties, which in clude players like Cristiano Ronaldo and Thiago Silva.
 
 Now looking into what the future holds
 
-![Alt Text](Data%20Viz/Top%201000%20Players%20Preferred%20Foot.png)
+![Alt Text](Data_Viz/Top%201000%20Players%20Preferred%20Foot.png)
 
-The youngsters coming into the game are mainly right footers. The left footed player will become even rarer in the future generations. The beauty of a left footed defender is their unorthodox style of play, making it very hard to defend I would suspect their value would go up as well, economics 101. 
+The youngsters coming into the game are mainly righ footers. The left footed player will become even rarer than today. The beauty of a left footed defender is thier unorthodox style of play, making it very hard to defend I would suspect thier value would go up as well. 
 
 ### Problem Statement
-Can we predict the market value of player? What features can we use to help us use machine learning to predict that market value. In my analysis i found the features that have high correlation with the value of a player. 
+Can we predict the market value of player? What features can we use to help us use machine learning to predict that market value. In my analysis i found the features that have high correaltion with the value of a player. 
 
-![Alt Text](Data%20Viz/heatmap.png)
+![Alt Text](Data_Viz/heatmap.png)
 
 
 ### Conclusion
 
-For this project I cleaned up and deleted with the null values, merged certain tables, did a bit of feature engineering, and finally performed feature selection in order to visualize the data and perform some machine learning algorithms in attempt to predict a players market value. Using simple and complicated modeling techniques I was able to closely predict a players market value. What I found was that there was some features that I was missing. I though that the engineered features I created would help, but instead I came to discover that my model was good at predicting for players at the bottom of the list. It was opposite when looking at the top 100 players. In the top 100 is where I saw the highest variance in my residuals. I will have to find a way to include the 'Star Power' Gene in the future.
+For this project I cleaned up and delat with the null values, merged certain tables, did a bit of feature engineering, and finally performed feature selection in order to visualize the data and perform some machine learning algorithms in attempt to predict a players market value. Using simple and complicated modeling techniques I was able to closely predict a players market value. What I found was that there was some features that I was missing. I though that the engineered features I created would help, but instead I came to discover that my model was good at predicting for players at the bottom of the list. It was opposite when looking at the top 100 players. In the top 100 is where i saw the highes variesnce in my residuals. I will have to find a way to include the 'Star Power' Gene in the future. 
 
+![Alt Text](Data_Viz/pred%20value%20top.png)
 
-![Alt Text](Data%20Viz/pred%20value%20top.png)
-
-![Alt Text](Data%20Viz/pred%20value%20bottom.png) 
+![Alt Text](Data_Viz/pred%20value%20bottom.png) 
